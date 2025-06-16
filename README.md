@@ -1,8 +1,9 @@
 # kipu-bank
 
+# Instrucciones de que hace el contrato
 El contrato inteligente presente en este repositorio, realizado en Solidity, trata sobre la interaccion con un banco. Permite a cualquier persona depositar ETH en su cuenta interna y retirarlo
 
-#Instrucciones de despliegue
+# Instrucciones de despliegue
 
 1. Abrir Remix y pegar el contenido del archivo KipuBank.sol en un nuevo archivo.
 2. En "Solidity compiler" selecciona el compilador
@@ -10,7 +11,7 @@ El contrato inteligente presente en este repositorio, realizado en Solidity, tra
 4. En deploy, llena los textfield limiteDeposito y bankCap con los valores que necesites, luego preciona transact, firma el contrato y listo
 5. El valor debe ingresarlo en wei, por ejemplo 500000000000000 = 0.0005
 
-#Como interactuar con el contrato
+# Como interactuar con el contrato
 
 Para interactuar con este puede ir a la pagina https://sepolia.etherscan.io/address/0x50C2D20B26D4E7F38D2e0993d7a672abA4cd9728#code 
 Accedé al contrato ya desplegado.
